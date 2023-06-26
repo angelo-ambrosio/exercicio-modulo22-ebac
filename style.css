@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.section-one{
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.info{
+    padding: 50px;
+    background-image: linear-gradient(#ffffff, #fcb1df);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info p{
+    color: #79365f;
+    font-size: 22px;
+}
+
+.info-item{
+    margin: 10px 0;
+    text-align: center;
+}
+
+h1 img{
+    max-width: 300px;
+}
+
+button{
+    padding: 1rem 2rem;
+    margin-top: 35px;
+    cursor: pointer;
+
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 15px;
+    border: none;
+
+    background-image: linear-gradient(to right, #c44289, #e97bcd, #c44289);
+    background-size: 200%;
+    background-position: left;
+    transition: .5s;
+
+    box-shadow: 5px 5px 20px #79365f;
+
+    color: #fcb1df;
+}
+
+button:hover{
+    background-position: right;
+    transform: scale(1.1);
+}
+
+.big-image{
+    background: url(./images/Cecilia\ 1\ aninho\ -\ Familie-40.jpg) no-repeat;
+    background-size: cover;
+} 
